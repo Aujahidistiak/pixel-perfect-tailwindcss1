@@ -1,0 +1,657 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./css/output.css" rel="stylesheet">
+  <title>Tailwind Practice</title>
+</head>
+<body class="font-montserrat">
+
+<!-- hero area -->
+<section class="flex flex-row items-center justify-center gap-[32px] ">
+  <div class="hero-are a relative flex flex-col gap-[32px] w-[1440px] h-[638px] px-[124px] pt-[40px] bg-[#ffd4d0]">
+
+    <!-- circel -->
+     <div class="circel absolute w-[146px] h-[146px] bg-[#fc3314] z-1 rounded-full left-[437px] -top-[58px]"></div>
+
+     <!-- header -->
+    <div class="header flex items-center justify-between z-12">
+
+        <!-- logo -->
+         <div class="logo w-[136px] h-[36px]">
+            <img src="img/header-logo.png" alt="logo"  >
+         </div>
+        
+        <!-- nav-bar -->
+         <div class="nav-bar w-[350px] ">
+          <ul class="navbar-ul flex items-center leading-[1.3] gap-[32px]">
+            <li><a class="font-bold text-[18px] text-[#1f1f1f]" href="#">About</a></li>
+            <li><a class="font-bold text-[18px] text-[#1f1f1f]" href="#">Services</a></li>
+            <li><a class="font-bold text-[18px] text-[#1f1f1f]" href="#">Portfolio</a></li>
+            <li><a class="font-bold text-[18px] text-[#1f1f1f]" href="#">Blog</a></li>
+          </ul>
+        </div> 
+
+        <!-- header-btn -->
+         <div class="header-btn flex items-center justify-center bg-black text-white w-[127px] h-[48px] px-6 py-3 font-bold leading-[1.3] ">
+            <a href="#">Let's Talk</a>
+         </div>
+         
+    </div>
+
+    <!-- hero area -->
+    <div class="hero-area flex w-[1440px] h-[518px] gap-[48px]   ">
+      
+      <!-- text area -->
+      <div class="hero-text-area flex flex-col w-[457px] h-[518px] pt-[64px] pb-[80px] gap-[48px]">
+          <div class="text-wrapper flex flex-col w-[457px] h-[278px] gap-[16px] ">
+            <h4 class=" font-montserrat text-[#1f1f1f] font-normal text-[20px] leading-[150%]">UX Designer</h4>
+            <h2 class=" font-montserrat text-[#1f1f1f] font-bold text-[48px] leading-[150%]">Hi There, I’m <br> <span class="text-[#FC3314]">John Smith</span> </h2>
+            <p class="font-normal text-[#1f1f1f] text-[16px] leading-[150%]"> Welcome to my portfolio of captivating digital experiences. Explore my work and let's create something extraordinary together.</p>
+          </div>
+          <div class="hero-btns flex w-[457px] h-[48px] gap-[20px]  ">
+            <a href="#" class="flex items-center justify-center bg-black text-[white] w-[177px] h-[48px] px-[56px] py-[12px] font-bold"> Hire Me</a>
+            <a href="#" class="flex items-center justify-center bg-transparent text-[black] w-[177px] h-[48px] px-[56px] py-[12px] font-bold border-[1px] border-[1f1f1f]">Portfolio</a>
+
+          </div>
+      </div>
+          
+
+      <!-- image area -->
+       <div class="hero-img relative" >
+          <img src="img/hero-bg-img.png" alt="" class="img-area-one mt-[58px]">
+          <img src="img/hero-img.png" alt="" class="img-area-two absolute -mt-[485px] ml-[115px]">
+       </div>
+
+    </div>
+  </div>
+</section> 
+<!-- hero area -->
+
+
+
+<!-- About area -->
+<div class="about-area relative w-[1440px] h-[445px] bg-[#1f1f1f] mx-auto px-[188px] pt-[64px] pb-[80px] flex flex-col gap-6 z-10 overflow-hidden ">
+
+  <!-- circle -->
+   <div class="about-circle absolute left-[600px] top-[400px] w-[234px] h-[234px] bg-[#FC3314] rounded-full"></div>
+
+  <!-- About text -->
+    <div class="about-text mx-auto text-center w-[810px] h-[150px] flex flex-col gap-[24px]">
+      <h2 class="font-bold text-[36px] leading-[150%] font-montserrat text-[#FFFFFF]">About Me</h2>
+      <p class="font-normal text-[16px] leading-[150%] text-[#FFFFFF] " >I'm John Smith, a UI/UX designer dedicated to crafting intuitive and visually stunning digital experiences. With a passion for user-centric design, I transform ideas into functional and beautiful interfaces. Let's collaborate and shape the future of design together.</p>
+    </div>
+
+  <!-- About information -->
+    <div class="about-info-wrapper relative w-[1064px] flex gap-[64px] justify-center mx-auto mt-auto">
+      <div class="about-info w-[312px] text-center">
+        <h2 class="info-heading font-montserrat font-bold text-[#FFD4D0] text-[64px] leading-[150%] ">502</h2>
+        <h4 class="font-montserrat text-[#FFFFFF] font-bold text-[18px] leading-[130%]">Projects Done</h4>
+      </div>
+      <div class="about-info w-[312px] text-center">
+        <h2 class="info-heading font-montserrat font-bold text-[#FFD4D0] text-[64px] leading-[150%] ">10+</h2>
+        <h4 class="font-montserrat text-[#FFFFFF] font-bold text-[18px] leading-[130%]">Years of Experience</h4>
+      </div>
+      <div class="about-info w-[312px] text-center">
+        <h2 class="info-heading font-montserrat font-bold text-[#FFD4D0] text-[64px] leading-[150%] ">273+</h2>
+        <h4 class="font-montserrat text-[#FFFFFF] font-bold text-[18px] leading-[130%]">Clients Served</h4>
+      </div>
+    </div>
+
+</div>
+<!-- About area --> 
+
+<!-- Service Section -->
+ <div class="service-area px-[124px] py-[64px] h-[527px] w-[1440px] flex flex-col mx-auto gap-[32px] ">
+
+    <!-- Service Heading -->
+      <div class="services-heading flex flex-col gap-[24px] text-center w-[810px]  mx-auto">
+        <h2 class="font-montserrat font-bold text-[36px] leading-[150%] text-[#1f1f1f]">Services</h2>
+        <p class="font-montserrat font-normal text-[16px] leading-[150%] text-[#1f1f1f]">Explore my design services, from user interface and experience to prototyping and testing. Let's craft exceptional digital experiences together.</p>
+      </div>
+
+    <!-- Service wrapper -->
+     <div class="services-wrapper w-[1192px] flex gap-[32px] ">
+
+      <!-- Single Service Box-1 -->
+      <div class="single-service-card w-[274px] px-[16px] gap-[24px] h-[241px] flex flex-col justify-center ">
+        <div class="service-icon">
+          <img src="img/Vector.svg" alt="service section design logo">
+        </div>
+        <h3 class="font-montserrat font-bold text-[18px] leading-[130%]">Design</h3>
+        <p class="font-montserrat font-normal text-[14px] leading-[150%]">I specialize in web development and design, creating visually appealing, user-friendly digital experiences.</p>
+      </div>
+      
+      <!-- Single Service Box-2 -->
+      <div class="single-service-card w-[274px] px-[16px] gap-[24px] h-[241px] flex flex-col justify-center ">
+        <div class="service-icon">
+          <img src="img/Vector (1).svg" alt="service section branding logo">
+        </div>
+        <h3 class="font-montserrat font-bold text-[18px] leading-[130%]">Branding</h3>
+        <p class="font-montserrat font-normal text-[14px] leading-[150%]">I'm a branding expert, crafting unique visual identities that tell your story and resonate with your audience.</p>
+      </div>
+
+      <!-- Single Service Box-3 -->
+      <div class="single-service-card w-[274px] px-[16px] gap-[24px] h-[241px] flex flex-col justify-center ">
+        <div class="service-icon">
+          <img src="img/Vector (2).svg" alt="service section ux research logo">
+        </div>
+        <h3 class="font-montserrat font-bold text-[18px] leading-[130%]">UX Research</h3>
+        <p class="font-montserrat font-normal text-[14px] leading-[150%]">"I specialize in user experience research, collaborating on web development, and ensuring user-friendly digital products.</p>
+      </div>
+
+      <!-- Single Service Box-4 -->
+      <div class="single-service-card w-[274px] px-[16px] gap-[24px] h-[241px] flex flex-col justify-center ">
+        <div class="service-icon">
+          <img src="img/Vector (3).svg" alt="service section usability testing logo">
+        </div>
+        <h3 class="font-montserrat font-bold text-[18px] leading-[130%]">Usability Testing</h3>
+        <p class="font-montserrat font-normal text-[14px] leading-[150%]">I perform usability testing and optimize designs websites based on real-user feedback for seamless interactions.</p>
+      </div>
+     </div>
+ </div>
+<!-- Service Section -->
+
+<!-- Portfolio Area -->
+  <div class="portfolio-area w-[1440px] h-[940px] flex flex-col mx-auto bg-[#f7f7f7]">
+
+    <!-- Portfolio Heading -->
+    <div class="portfolio-heading w-full h-[317px] px-[124px] pt-[50px] pb-[142px] flex justify-center items-center bg-[#ffd4d0] ">
+      <div class="portfolio-heading-wapper w-full max-w-[1192px] h-[125px] flex flex-col gap-[24px] ">
+        <h2 class="font-montserrat font-bold text-[35px] leading-[150%] text-[#1f1f1f] text-center">My Portfolio</h2>
+        <p class="w-full max-w-[810px] font-montserrat font-normal leading-[150%] text-[16px] text-center self-center text-[#1f1f1f]  ">Explore my design services, from user interface and experience to prototyping and testing. Let's craft exceptional digital experiences together.</p>
+      </div>
+    </div>
+    <!-- portfolio Card Wrapper -->
+    <div class="portfolio-card-wapper w-full flex flex-col gap-[64px] h-[723px] px-[124px] pb-[64px] -mt-[100px] ">
+      <!-- Portfolio Card Row-1 -->
+      <div class="portfolio-card-row1 w-full max-w-[1192px] h-[298px] flex gap-[64px]   ">
+
+
+        <!-- Portfolio Card -->
+        <div class="portfolio-card w-[355px] h-full flex flex-col gap-[32px]">
+
+           <!-- Portfolio Card Img -->
+              <div class="portfolio-card-img w-full h-[198.33px] bg-center bg-cover bg-no-repeat  ">
+                <img src="img/protfollio-1.png" alt="educational platform image">  
+              </div>
+
+           <!-- Portfolio Card Content -->
+              <div class="portfolio-card-content w-full h-[67px] flex justify-between ">
+                <div class="card-heading flex flex-col gap-[16px] ">
+                  <h2 class="font-montserrat font-bold text-[20px] leading-[150%] text-start" >Educational Platform</h2>
+                  <h4 class=" font-montserrat font-normal text-[14px] leading-[150%] text-start ">Web Design / Usability Testing</h4>
+                </div>
+                <div class="card-icon flex items-center justify-center w-[38px] h-[38px] bg-center bg-no-repeat bg-red-500 rounded-full self-end text-[#FFFFFF]  ">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                  </svg>
+                </div>
+              </div>
+        </div>
+        <!-- Portfolio Card 2 -->
+        <div class="portfolio-card w-[355px] h-full flex flex-col gap-[32px]">
+
+           <!-- Portfolio Card Img -->
+              <div class="portfolio-card-img w-full h-[198.33px] bg-center bg-cover bg-no-repeat  ">
+                <img src="img/protfolio-2.png" alt="educational platform image">  
+              </div>
+
+           <!-- Portfolio Card Content -->
+              <div class="portfolio-card-content w-full h-[67px] flex justify-between ">
+                <div class="card-heading flex flex-col gap-[16px] ">
+                  <h2 class="font-montserrat font-bold text-[20px] leading-[150%] text-start" >Travel App Desi gn</h2>
+                  <h4 class=" font-montserrat font-normal text-[14px] leading-[150%] text-start ">UX Research / App Design </h4>
+                </div>
+                <div class="card-icon flex items-center justify-center w-[38px] h-[38px] bg-center bg-no-repeat bg-red-500 rounded-full self-end text-[#FFFFFF]  ">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                  </svg>
+                </div>
+              </div>
+        </div>
+        <!-- Portfolio Card 3 -->
+        <div class="portfolio-card w-[355px] h-full flex flex-col gap-[32px]">
+
+           <!-- Portfolio Card Img -->
+              <div class="portfolio-card-img w-full h-[198.33px] bg-center bg-cover bg-no-repeat  ">
+                <img src="img/protfollio-3.png" alt="educational platform image">  
+              </div>
+
+           <!-- Portfolio Card Content -->
+              <div class="portfolio-card-content w-full h-[67px] flex justify-between ">
+                <div class="card-heading flex flex-col gap-[16px] ">
+                  <h2 class="font-montserrat font-bold text-[20px] leading-[150%] text-start" >Personal Page</h2>
+                  <h4 class=" font-montserrat font-normal text-[14px] leading-[150%] text-start ">Web Design</h4>
+                </div>
+                <div class="card-icon flex items-center justify-center w-[38px] h-[38px] bg-center bg-no-repeat bg-red-500 rounded-full self-end text-[#FFFFFF]  ">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                  </svg>
+                </div>
+              </div>
+        </div>
+      </div>
+      <!-- Portfolio Card Row-2 -->
+      <div class="portfolio-card-row1 w-full max-w-[1192px] h-[298px] flex gap-[64px]   ">
+
+
+        <!-- Portfolio Card -->
+        <div class="portfolio-card w-[355px] h-full flex flex-col gap-[32px]">
+
+           <!-- Portfolio Card Img -->
+              <div class="portfolio-card-img w-full h-[198.33px] bg-center bg-cover bg-no-repeat  ">
+                <img src="img/protfollio-4.png " alt="Furniture Mobile App image">  
+              </div>
+
+           <!-- Portfolio Card Content -->
+              <div class="portfolio-card-content w-full h-[67px] flex justify-between ">
+                <div class="card-heading flex flex-col gap-[16px] ">
+                  <h2 class="font-montserrat font-bold text-[20px] leading-[150%] text-start" >Furniture Mobile App</h2>
+                  <h4 class=" font-montserrat font-normal text-[14px] leading-[150%] text-start ">App Design </h4>
+                </div>
+                <div class="card-icon flex items-center justify-center w-[38px] h-[38px] bg-center bg-no-repeat bg-red-500 rounded-full self-end text-[#FFFFFF]  ">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                  </svg>
+                </div>
+              </div>
+        </div>
+        <!-- Portfolio Card 2 -->
+        <div class="portfolio-card w-[355px] h-full flex flex-col gap-[32px]">
+
+           <!-- Portfolio Card Img -->
+              <div class="portfolio-card-img w-full h-[198.33px] bg-center bg-cover bg-no-repeat  ">
+                <img src="img/protfollio-5.png" alt="Coffee House Landing Page image">  
+              </div>
+
+           <!-- Portfolio Card Content -->
+              <div class="portfolio-card-content w-full h-[67px] flex justify-between ">
+                <div class="card-heading flex flex-col gap-[16px] ">
+                  <h2 class="font-montserrat font-bold text-[20px] leading-[150%] text-start" >Coffee House Landing Page</h2>
+                  <h4 class=" font-montserrat font-normal text-[14px] leading-[150%] text-start ">UX Research / Web Design </h4>
+                </div>
+                <div class="card-icon flex items-center justify-center w-[38px] h-[38px] bg-center bg-no-repeat bg-red-500 rounded-full self-end text-[#FFFFFF]  ">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                  </svg>
+                </div>
+              </div>
+        </div>
+        <!-- Portfolio Card 3 -->
+        <div class="portfolio-card w-[355px] h-full flex flex-col gap-[32px]">
+
+           <!-- Portfolio Card Img -->
+              <div class="portfolio-card-img w-full h-[198.33px] bg-center bg-cover bg-no-repeat  ">
+                <img src="img/protfollio-6.png" alt="educational platform image">  
+              </div>
+
+           <!-- Portfolio Card Content -->
+              <div class="portfolio-card-content w-full h-[67px] flex justify-between ">
+                <div class="card-heading flex flex-col gap-[16px] ">
+                  <h2 class="font-montserrat font-bold text-[20px] leading-[150%] text-start" >Home Services Page</h2>
+                  <h4 class=" font-montserrat font-normal text-[14px] leading-[150%] text-start ">Web Design / Marketing</h4>
+                </div>
+                <div class="card-icon flex items-center justify-center w-[38px] h-[38px] bg-center bg-no-repeat bg-red-500 rounded-full self-end text-[#FFFFFF]  ">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                  </svg>
+                </div>
+              </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- Portfolio Area --> 
+
+<!-- Skills Area  -->
+  <div class="skills-area w-[1440px] h-[554px] px-[188px] py-[90px] flex flex-col gap-[64px] items-center mx-auto bg-[#f7f7f7]   ">
+
+    <!-- Skills Header -->
+    <div class="skills-header flex flex-col w-[810px] h-[126px] gap-[24px]">
+      <h2 class="font-montserrat font-bold text-[36px] leading-[150%] text-center text-[#1f1f1f]">Core Design Skills</h2>
+      <p class="font-montserrat font-normal text-[16px] leading-[150%] text-[#1f1f1f] text-center ">I excel in essential design skills, creating visually stunning and functional digital experiences. From UI design to UX research, my passion is to craft effective and memorable digital solutions.</p>
+    </div>
+
+    <!-- Skills Wapper -->
+     <div class="skills-wapper w-[1064px] h-[184px] flex gap-[120px]   ">
+      <!-- Left Column -->
+       <div class="skills-left-column w-[472px] h-[184px] flex flex-col gap-[8px] ">
+
+        <!-- Single Left Bar-1 -->
+        <div class="single-skills w-[472px] h-[56px] flex flex-col gap-[16px] items-start ">
+          <h2 class="font-montserrat font-bold text-[16px] leading-[150%] text-[#1f1f1f] text-start">Interaction Design</h2>
+          <div class="skill-bar w-[472px] h-[8px] flex gap-[16px] items-center ">
+            <div class="w-[420px] h-[5px] bg-[#E1E1E1]">
+              <div class="w-[60%] h-[5px] bg-[#1f1f1f]"></div>
+            </div>
+            <h4 class="font-montserrat font-bold text-[16px] leading-[150%] text-[#1F1F1F]">60%</h4>
+          </div>
+        </div>
+
+        <!-- Single Left Bar-2 -->
+        <div class="single-skills w-[472px] h-[56px] flex flex-col gap-[16px] items-start ">
+          <h2 class="font-montserrat font-bold text-[16px] leading-[150%] text-[#1f1f1f] text-start">Usability Testing</h2>
+          <div class="skill-bar w-[472px] h-[8px] flex gap-[16px] items-center ">
+            <div class="w-[420px] h-[5px] bg-[#E1E1E1]">
+              <div class="w-[70%] h-[5px] bg-[#1f1f1f]"></div>
+            </div>
+            <h4 class="font-montserrat font-bold text-[16px] leading-[150%] text-[#1F1F1F]">70%</h4>
+          </div>
+        </div>
+
+        <!-- Single Left Bar-3 -->
+        <div class="single-skills w-[472px] h-[56px] flex flex-col gap-[16px] items-start ">
+          <h2 class="font-montserrat font-bold text-[16px] leading-[150%] text-[#1f1f1f] text-start">User Research</h2>
+          <div class="skill-bar w-[472px] h-[8px] flex gap-[16px] items-center ">
+            <div class="w-[420px] h-[5px] bg-[#E1E1E1]">
+              <div class="w-[45%] h-[5px] bg-[#1f1f1f]"></div>
+            </div>
+            <h4 class="font-montserrat font-bold text-[16px] leading-[150%] text-[#1F1F1F]">45%</h4>
+          </div>
+        </div>
+       </div>
+       
+      <!-- Right Column -->
+      <div class="skills-left-column w-[472px] h-[184px] flex flex-col gap-[8px] ">
+
+        <!-- Single Right Bar-1 -->
+        <div class="single-skills w-[472px] h-[56px] flex flex-col gap-[16px] items-start ">
+          <h2 class="font-montserrat font-bold text-[16px] leading-[150%] text-[#1f1f1f] text-start">Figma</h2>
+          <div class="skill-bar w-[472px] h-[8px] flex gap-[16px] items-center ">
+            <div class="w-[420px] h-[5px] bg-[#E1E1E1]">
+              <div class="w-[95%] h-[5px] bg-[#1f1f1f]"></div>
+            </div>
+            <h4 class="font-montserrat font-bold text-[16px] leading-[150%] text-[#1F1F1F]">95%</h4>
+          </div>
+        </div>
+
+        <!-- Single Right Bar-2 -->
+        <div class="single-skills w-[472px] h-[56px] flex flex-col gap-[16px] items-start ">
+          <h2 class="font-montserrat font-bold text-[16px] leading-[150%] text-[#1f1f1f] text-start">Prototyping</h2>
+          <div class="skill-bar w-[472px] h-[8px] flex gap-[16px] items-center ">
+            <div class="w-[420px] h-[5px] bg-[#E1E1E1]">
+              <div class="w-[80%] h-[5px] bg-[#1f1f1f]"></div>
+            </div>
+            <h4 class="font-montserrat font-bold text-[16px] leading-[150%] text-[#1F1F1F]">80%</h4>
+          </div>
+        </div>
+
+        <!-- Single Right Bar-3 -->
+        <div class="single-skills w-[472px] h-[56px] flex flex-col gap-[16px] items-start ">
+          <h2 class="font-montserrat font-bold text-[16px] leading-[150%] text-[#1f1f1f] text-start">Information Architecture</h2>
+          <div class="skill-bar w-[472px] h-[8px] flex gap-[16px] items-center ">
+            <div class="w-[420px] h-[5px] bg-[#E1E1E1]">
+              <div class="w-[50%] h-[5px] bg-[#1f1f1f]"></div>
+            </div>
+            <h4 class="font-montserrat font-bold text-[16px] leading-[150%] text-[#1F1F1F]">50%</h4>
+          </div>
+        </div>
+       </div>
+     </div>
+  </div>
+<!-- Skills Area  -->
+
+<!-- Testemonials Area -->
+<div class="Testemonials-area relative overflow-hidden w-[1440px] h-[414px] px-[124px] pt-[90px] pb-[64px] bg bg-[#FFD4D0] flex justify-center mx-auto">
+  
+  <!-- Circle -->
+  <div class="testemonials-circle absolute w-[122px] h-[122px] bg-[#fc3314] z-1 rounded-full -top-[60px] "> </div>
+
+  <!-- Testemonials Info  -->
+  <div class="Testemonials-info w-[1192px] h-[260px] flex flex-col gap-[32px] items-center">
+    <h2 class="font-montserrat font-bold text-[36px] leading-[150%] text-center text-[#1f1f1f] ">Testemonials</h2>
+
+        <!-- Testemonials Wrapper Peragraph and Carosel -->
+        <div class="testemonials-wapper w-[1192px] h-[72px] flex justify-between items-center">
+          <!-- Left Carosel -->
+          <button class="w-[40px] h-[40px]">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+            </svg>
+          </button>
+          <!-- Peragraph -->
+          <p class="w-[768px] h-[72px]font-montserrat font-normal text-[16px] leading-[150%] text-center">Sara Jones's designs are both visually captivating and highly effective. She transformed our website, enhancing user engagement and conversions. Her attention to detail and creative approach are top-notch. Highly recommended!</p>
+          <!-- Right Carosel -->
+          <button class="w-[40px] h-[40px]">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+            </svg>
+          </button>
+        </div>
+
+        <!-- Client Profile/ Info -->
+        <div class="client-profile w-[368px] h-[70px] flex gap-[16px] items-center">
+            <div class="client-image w-[70px] h-[70px] rounded-full">
+                <img src="img/testemonals-img.png" alt="testemonals client-image ">
+            </div >
+            <!-- Client Name and Possition -->
+             <h4 class="font-normal text-[16px] leading-[150%] "> <span class="font-bold">John Smith</span> / CEO of XYZ Company</h4>
+        </div>
+  </div>
+ </div>
+<!-- Testemonials Area -->
+
+<!-- Blog Area -->
+<div class="blog-area w-[1440px] h-[772px] flex flex-col gap-[48px] px-[124px] py-[90px] mx-auto bg-[#f7f7f7]">
+    <!-- Blog Heading -->
+    <div class="blog-heading w-[799px] h-[118px] flex flex-col gap-[16px] mx-auto">
+        <h2 class="font-montserrat font-bold text-[36px] text-[#1f1f1f] leading-[150%] text-center">Design Insights and Inspiration</h2>
+        <p class="font-montserrat font-normal text-[16px] text-[#1f1f1f] leading-[150%] text-center">Discover industry insights, expert tips, and design inspiration. Stay updated with the latest trends in web design and user experience.   </p>
+    </div>
+    <!-- Blog Wapper -->
+    <div class="blog-card-wapper w-[1192px] h-[426.15px] flex justify-between">
+
+        <!-- Single Blog Card 1 -->
+        <div class="single-blog-card w-[336px] h-[426.15px] flex flex-col gap-[32px] items-center bg-[#ffffff] ">
+            <!-- Blog Image -->
+            <div class="blog-image w-[336px] h-[202.15px]">
+              <img src="img/design1.png" alt="">
+            </div>
+            <!-- Blog Content -->
+            <div class="blog-content w-[336px] h-[192px] flex flex-col gap-[16px] px-[16px] pb-[16px]">
+               <!-- Blog Content Text -->
+               <div class="blog-content-inner w-[304px] h-[142px] flex flex-col gap-[8px]  ">
+                  <h4 class="font-montserrat font-normal text-[12px] text-[#1f1f1f] text-start leading-[150%]">August 15, 2023 / UX</h4>
+                  <h2 class="font-montserrat font-bold text-[16px] text-[#1f1f1f] leading-[150%] text-start">Typography Tips for Design Success</h2>
+                  <p class="font-montserrat font-normal text-[14px] text-[#1f1f1f] leading-[150%] text-start">Dive into the world of web typography and discover how to choose, pair, and optimize fonts for compelling and readable digital designs.</p>
+               </div>
+               <!-- Cta Blog link -->
+               <div class="blog-content-cta w-[92px] h-[18px] flex justify-between items-center ">
+                  <!-- Blog Cta Button -->
+                  <div class="blog-cta-btn">
+                    <a class="font-montserrat font-bold text-[12px] text-[#1f1f1f] leading-[150%] text-start" href="#">Read More</a>
+                  </div>
+                  <!-- Blog Cta Icon -->
+                  <div class="blog-cta-icon w-[16px] h-[16px]">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                      </svg>
+                   </div>
+               </div>
+            </div>
+
+        </div>
+
+        <!-- Single Blog Card 2 -->
+        <div class="single-blog-card w-[336px] h-[426.15px] flex flex-col gap-[32px] items-center bg-[#ffffff] ">
+            <!-- Blog Image -->
+            <div class="blog-image w-[336px] h-[202.15px]">
+              <img src="img/design2.png" alt="">
+            </div>
+            <!-- Blog Content -->
+            <div class="blog-content w-[336px] h-[200px] flex flex-col gap-[16px] px-[16px] pb-[16px] justify-between">
+               <!-- Blog Content Text -->
+               <div class="blog-content-inner w-[304px] h-[142px] flex flex-col gap-[8px]  ">
+                  <h4 class="font-montserrat font-normal text-[12px] text-[#1f1f1f] text-start leading-[150%]">August 15, 2023 / UX</h4>
+                  <h2 class="font-montserrat font-bold text-[16px] text-[#1f1f1f] leading-[150%] text-start">Color Psychology in UX</h2>
+                  <p class="font-montserrat font-normal text-[14px] text-[#1f1f1f] leading-[150%] text-start">Explore how color choices impact user emotions and decision-making in UX design.</p>
+               </div>
+               <!-- Cta Blog link -->
+               <div class="blog-content-cta w-[92px] h-[18px] flex justify-between items-center ">
+                  <!-- Blog Cta Button -->
+                  <div class="blog-cta-btn">
+                    <a class="font-montserrat font-bold text-[12px] text-[#1f1f1f] leading-[150%]  text-start" href="#">Read More</a>
+                  </div>
+                  <!-- Blog Cta Icon -->
+                  <div class="blog-cta-icon w-[16px] h-[16px]">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                      </svg>
+                   </div>
+               </div>
+            </div>
+        </div>
+
+        <!-- Single Blog Card 3 -->
+        <div class="single-blog-card w-[336px] h-[426.15px] flex flex-col gap-[32px] items-center bg-[#ffffff] ">
+            <!-- Blog Image -->
+            <div class="blog-image w-[336px] h-[202.15px]">
+              <img src="img/design3.png" alt="">
+            </div>
+            <!-- Blog Content -->
+            <div class="blog-content w-[336px] h-[200px] flex flex-col gap-[16px] px-[16px] pb-[16px] justify-between">
+               <!-- Blog Content Text -->
+               <div class="blog-content-inner w-[304px] h-[142px] flex flex-col gap-[8px]  ">
+                  <h4 class="font-montserrat font-normal text-[12px] text-[#1f1f1f] text-start leading-[150%]">August 15, 2023 / UX</h4>
+                  <h2 class="font-montserrat font-bold text-[16px] text-[#1f1f1f] leading-[150%] text-start">Boosting UX with Microinteractions</h2>
+                  <p class="font-montserrat font-normal text-[14px] text-[#1f1f1f] leading-[150%] text-start">Discover the power of microinteractions in enhancing user experience and engagement.</p>
+               </div>
+               <!-- Cta Blog link -->
+               <div class="blog-content-cta w-[92px] h-[18px] flex justify-between items-center ">
+                  <!-- Blog Cta Button -->
+                  <div class="blog-cta-btn">
+                    <a class="font-montserrat font-bold text-[12px] text-[#1f1f1f] leading-[150%] text-start" href="#">Read More</a>
+                  </div>
+                  <!-- Blog Cta Icon -->
+                  <div class="blog-cta-icon w-[16px] h-[16px]">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                      </svg>
+                   </div>
+               </div>
+            </div>
+        </div>
+     </div>
+</div>
+<!-- Blog Area -->
+
+<!-- Contact Area -->
+ <div class="contact-area relative w-[1440px] h-[715px] p-[124px] mx-auto flex gap-[60px] bg-[#ffd4d0] z-10 overflow-hidden ">
+  <!-- Read Circle -->
+  <div class="red-circle absolute w-[221px] h-[221px] bg-[#fc3314] rounded-full top-[227px] -left-[135px] z-0 "></div>
+
+  <!-- Contact Left -->
+   <div class="contact-left w-[566px] h-[467px] flex flex-col justify-between ">
+
+      <!-- Contact Left Heading -->
+      <div class="contact-left-text w-[566px] h-[318px] flex flex-col gap-[64px] text-start">
+          <div class="contact-heading w-[566px] h-[118px] flex flex-col gap-[16px]">
+              <h2 class="font-montserrat font-bold text-[36px] text-[#1f1f1f] leading-[150%] text-start">Get in Touch</h2>
+              <p class="font-montserrat font-normal text-[16px] text-[#1f1f1f] leading-[150%] text-start">Have a question or a project in mind? I'd love to hear from you. Let's chat and make something amazing together.</p>
+          </div>
+          <!-- Contact Left Info -->
+          <div class="contact-info w-[566px] h-[136px] flex flex-col gap-[32px] font-montserrat font-normal text-[16px] text-[#1f1f1f] leading-[150%] text-start">
+            <div class="phone flex gap-[16px] items-center">
+                <div class="phone-icon  ">
+                    <img class="w-[24px] h-[24px]" src="img/contact-phone-call.svg" alt="">
+                </div>
+                <p class="font-montserrat font-normal text-[16px] text-[#1f1f1f] leading-[150%] text-start">+1205 5872 321</p>
+            </div>
+
+            <div class="mail flex gap-[16px] items-center">
+                <div class="mail-icon">
+                    <img class="w-[24px] h-[24px]" src="img/contact-sharp-email.svg" alt="">
+                </div>
+                <p class="font-montserrat font-normal text-[16px] text-[#1f1f1f] leading-[150%] text-start pl-[4px]"> contact@sarajonesdesign.com</p>
+            </div>
+
+            <div class="location flex gap-[16px] items-center">
+                <div class="location-icon">
+                    <img class="w-[24px] h-[24px]" src="img/contact-location-filled.svg" alt="">
+                </div>
+                <p class="font-montserrat font-normal text-[16px] text-[#1f1f1f] leading-[150%] text-start">1234 Design Street,Creativeville, Webland,Imaginary State, 98765</p>
+            </div>
+
+
+          </div>
+      </div>
+      <!-- Contact Left Social Icon -->
+      <div class="contact-left-social-icon w-[192px] h-[30px] flex gap-[24px] ">
+          <div class="twitter relative w-[30px] h-[30px] bg-[#ffffff] rounded-full">
+              <img class="absolute w-[15px] h-[12px] top-[9px] left-[8px] " src="img/contact-twitter.svg" alt="">
+          </div>
+
+          <div class="insta relative w-[30px] h-[30px] bg-[#ffffff] rounded-full">
+              <img class="absolute w-[15px] h-[15px] top-[7px] left-[8px] " src="img/contact-insta.svg" alt="">
+          </div>
+
+          <div class="dribbble relative w-[30px] h-[30px] bg-[#ffffff] rounded-full">
+              <img class="absolute w-[15px] h-[15px] top-[8px] left-[8px] " src="img/contact-dribbble.svg" alt="">
+          </div>
+
+          <div class="facebook relative w-[30px] h-[30px] bg-[#ffffff] rounded-full">
+              <img class="absolute w-[14px] h-[15px] top-[7px] left-[8px]" src="img/contact-facebook.svg" alt="">
+          </div>
+      </div>
+   </div>
+   <!-- Contact Rignt -->
+   <div class="contact-right w-[566px] h-[467px] flex flex-col gap-[32px]">
+      <!-- Text Fields -->
+      <div class="text-fields w-[566px] h-[387px]  flex flex-col gap-[24px] font-montserrat font-normal text-[14px] leading-[150%]">
+          <!-- Text Input -->
+          <input class="bg-[#ffffff] w-full h-[49px] px-[16px] py-[14px] placeholder:text-[#8D8D8D]" type="text" placeholder="First Name">
+          <input class="bg-[#ffffff] w-full h-[49px] px-[16px] py-[14px] placeholder:text-[#8D8D8D]" type="email" placeholder="Email">
+          <input class="bg-[#ffffff] w-full h-[49px] px-[16px] py-[14px] placeholder:text-[#8D8D8D]" type="tel" placeholder="Phone Number">
+          <textarea class="bg-[#ffffff] w-full h-[168px] px-[16px] py-[13px] placeholder:text-[#8D8D8D]" type="text" placeholder="Your Message"></textarea>
+      </div>
+      <!-- Buttons -->
+       <a class="w-[233px] h-[48px] bg-[#1f1f1f] px-[56px] py-[12px] font-montserrat font-bold text-[#ffffff] text-[16px] leading-[150%] " href="#">Send Message</a>
+   </div>
+ </div>
+<!-- Contact Area -->
+
+<!-- Footer Area -->
+<div class="footer-area w-[1440px] h-[359.45px] px-[300px] py-[80px] mx-auto bg-[#1f1f1f] text-center ">
+    <div class="footer-wapper w-[765px] h-[199.45px] flex flex-col gap-[64px] flex flex-col items-center mx-auto text-[#ffffff] ">
+        <!-- Footer Menu + Logo + Menu -->
+        <div class="footer-menu w-[765px] h-[54px] flex justify-center items-center gap-[120px]">
+            <div class="menu-left w-[185px] h-[30px]">
+              <ul class="flex gap-[32px]">
+                <li><a class="font-montserrat font-bold text-[20px] text-[#ffffff] leading-[150%]" href="#">About</a></li>
+                <li><a class="font-montserrat font-bold text-[20px] text-[#ffffff] leading-[150%]" href="#">Services</a></li>
+              </ul>
+            </div>
+            <!-- Logo -->
+            <div class="logo w-[163px] h-[54px]">
+              <img  src="img/footer-logo.png" alt="">
+            </div>
+            <!-- Menu Right -->
+            <div class="menu-right w-[177px] h-[30px]">
+              <ul class="flex gap-[32px]">
+                <li><a class="font-montserrat font-bold text-[20px] text-[#ffffff] leading-[150%]" href="#">Portfolio</a></li>
+                <li><a class="font-montserrat font-bold text-[20px] text-[#ffffff] leading-[150%]" href="#">Blog</a></li>
+              </ul>
+            </div>
+            
+          
+
+        </div>
+        <!-- Footer Social Link -->
+          <div class="footer-social-link w-[216px] h-[81.45px] flex flex-col gap-[32px] items-center">
+            <p class="font-montserrat font-normal text-[16px] text-[#ffffff] leading-[150%] ">Follow me on social media:</p>
+            <div class="footar-social w-[178.72px] hh-[25px] ">
+                <ul class="flex gap-[32px] items-center">
+                    <li><a href="#"><img src="img/footer-1.png" alt=""></a></li>
+                    <li><a href="#"><img src="img/footer-2.png" alt=""></a></li>
+                    <li><a href="#"><img src="img/footer-3.png" alt=""></a></li>
+                    <li><a href="#"><img src="img/footer-4.png" alt=""></a></li>
+                </ul>
+            </div>
+          </div>
+    </div>
+</div>
+<!-- Footer Area -->
+</body>
+</html> 
